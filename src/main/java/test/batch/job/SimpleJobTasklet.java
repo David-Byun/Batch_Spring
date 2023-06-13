@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Component
-@StepScope
+//@Component
+//@StepScope
 public class SimpleJobTasklet implements Tasklet {
 
     @Value("#{jobParameters[requestDate]}")

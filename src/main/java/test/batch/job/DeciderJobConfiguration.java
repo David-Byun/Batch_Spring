@@ -20,7 +20,7 @@ import java.util.Random;
     Spring Batch에서는 Step들의 Flow 속에서 분기만 담당하는 타입이 존재함 JobExecutionDecider
  */
 @Slf4j
-@Configuration
+//@Configuration
 @RequiredArgsConstructor
 public class DeciderJobConfiguration {
     private final JobBuilderFactory jobBuilderFactory;
